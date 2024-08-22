@@ -3,13 +3,12 @@
 ## Link to paper
 
 [None](https://github.com/ShanLi-2000/MAML-KalmanNet)
-<!-- [KalmanNet: Neural Network Aided Kalman Filtering for Partially Known Dynamics](https://arxiv.org/abs/2107.10043) -->
 
 ## Running code
 
 Since the code is not fully adapted to cuda, it is recommended to set use_cuda = False when generating data and then use cuda to train model.
 
-There are main files simulating the UCM system and Lorzen Attractor systems respectively.
+There are main files simulating the UCM system and the UZH FPV systems respectively.
 We have saved the trained model in Model/model_name/basenet.pt
 
 * UCM (linear model or non-linear model)
@@ -22,8 +21,7 @@ python3 main_nonlinear.py
 * Lorzen Attractor (matched model, decimation, mismatched model)
 
 ```
-python3 main_lor.py
-python3 main_lor_mismatch.py
+python3 main_UZH.py
 ```
 
 ## Running plot loss code
@@ -35,10 +33,7 @@ python3 main_lor_mismatch.py
 
 ### Lorzen Attractor
 
-- lor_plot_loss.py: plot Figure 4 in the paper.
-- lor_plot_mismatch_loss.py: plot Table II in the paper.(should run lor_mismatched_data_gen.py first)
-- lor_mismatched_data_gen.py: plot Figure 6 in th3 paper.
-- lor_plot_trajectory.py: Plot Figure 5 in the paper.(should run lor_data_gen.py and lor_compute_trajectory.py first)
+- UZH_plot_trajectory.py: plot Figure 6 in the paper.
 
 ## Introduction to other files
 
