@@ -2,7 +2,7 @@
 
 ## Link to paper
 
-[None](https://github.com/ShanLi-2000/MAML-KalmanNet)
+[MAML-KalmanNet: A Neural Network-Assisted Kalman Filter Based on Model-Agnostic Meta-Learning](https://ieeexplore.ieee.org/document/10883047)
 
 ## Running code
 
