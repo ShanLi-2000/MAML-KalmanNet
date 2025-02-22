@@ -6,7 +6,7 @@
 
 ## Introduction to the Code
 
-In the paper, the generation of AAL data is **task-specific**. However, in the code implementation, to simplify the process of generating AAL data, we use **two nested loops** to select \( q_2 \) and \( r_2 \) from the list \( \Upsilon \). The rationale behind this approach is:
+In the paper, the generation of AAL data is **task-specific**. However, in the code implementation, to simplify the process of generating AAL data, we use **two nested loops** to select $ q_2 $ and $ r_2 $ from the list $ \Upsilon $. The rationale behind this approach is:
 
 > Although this method will generate some similar tasks, the probability of sampling highly similar tasks during any single inner-loop update process is extremely low, ensuring sufficient task diversity for meta-training.
 
